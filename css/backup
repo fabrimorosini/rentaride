@@ -1,0 +1,30 @@
+.portadareservas{
+    display: flex;
+    background-color: rgb(53, 53, 53);
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+    margin-left: 35px;
+}
+
+.reservaindex{
+    text-align:center;
+    padding: 5px;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    border-radius: 20px;
+    width: 400px;
+    height: 70px;
+    background-color: rgb(42, 165, 58);    
+}
+
+.reservaindex2{
+    text-align:center;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 3rem;
+    border-radius: 20px;
+    width: 400px;
+    height: 70px;
+    background-color: rgb(42, 165, 58);    
+}

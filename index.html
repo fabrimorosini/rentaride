@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title >Rent'a'ride</title>
+</head>
+<body>
+    <header>
+            <nav class="header__navegacion">
+                <div>
+                <img src="recursos/logo/nuevologo.png" alt="logoprincipal" class="logoprincipal">
+                <ul class="header__list">
+                    <li><a href="paginas/reservas.html">Reservas</a></li>
+                    <li><a href="paginas/flota.html">Flota</a></li>
+                    <li><a href="paginas/sucursales.html">Sucursales</a></li>
+                    <li><a href="paginas/contacto.html">Contactanos</a></li>
+                </ul>
+            </div>
+            </nav> 
+    </header>
+    <main class="mainindex">
+        <!-- <section class="flotaindex"> -->
+        <section class="flotaindex__fondo">
+            <h3 class="flotaindex__titulo">NUESTRA FLOTA</h3>
+            <div>
+                <p class="flotaindex__linea">LINEA ECONOMY</p>
+                <a href="paginas/reservas.html"> <img src="recursos/flota/economy-car.jpg" alt="Foto de auto economico" class="flotaindex__auto"></a> 
+            </div>
+            <div>
+                <p class="flotaindex__linea">LINEA COMPACTOS</p>
+                <a href="paginas/reservas.html"> <img src="recursos/flota/compact-car.jpg" alt="Foto de auto compacto" class="flotaindex__auto2"></a> 
+            </div>
+            <div>
+                <p class="flotaindex__linea">LINEA MEDIANOS</p>
+                <a href="paginas/reservas.html"> <img src="recursos/flota/midsize-car.jpg" alt="Foto de auto mediano"class="flotaindex__auto"></a> 
+            </div>
+            <div>
+                <p class="flotaindex__linea">LINEA SUV´S</p>
+                <a href="paginas/reservas.html"> <img src="recursos/flota/suv-car.jpg" alt="Foto de auto Suv´s" class="flotaindex__auto"></a> 
+            </div>
+            <div>
+                <p class="flotaindex__linea">LINEA TODO TERRENO</p>
+                <a href="paginas/reservas.html"> <img src="recursos/flota/pickup-car.jpg" alt="Foto de auto todoterreno" class="flotaindex__auto"></a> 
+            </div>  
+        </section>
+        <section class="portadareservas">
+            <div class="portada__titulo2">
+            <h2>RESERVA AQUI EL VEHICULO QUE MEJOR SE ADAPTE A TU VIAJE.</h2>
+            </div>
+            <!--  COMIENZA FORMULARIO RESREVA -->
+            <div class="reservaindex">
+            <form method="post">
+                <label for="select" class="reservaindex__titulo">Retiro en sucursal</label>
+                <select name="Sucursales" id="Sucursales" class="reservaindex__select">
+                    <option value="aeropuerto">Aeropuerto</option>
+                    <option value="centro1">Centro1</option>
+                    <option value="cntro2">Centro2</option>
+                </select>
+                <div>
+                    <label for="date" class="reservaindex__titulo">Fecha:</label>
+                    <input type="date" placeholder="Fecha"required></input>
+                </div>
+                <div class="reservaindex2">
+                <form method="post">
+                    <label for="select" class="reservaindex__titulo">Devuelvo en sucursal</label>
+                <select name="Sucursales" id="Sucursales" class="reservaindex__select">
+                    <option value="aeropuerto">Aeropuerto</option>
+                    <option value="centro1">Centro1</option>
+                    <option value="cntro2">Centro2</option>
+                    </select>
+                <div>
+                    <label for="date" class="reservaindex__titulo">Fecha:</label>
+                    <input type="date" placeholder="Fecha"required></input>
+                </div>
+                <div>
+                    <input type="submit" value="Buscar" class="botonindex"></input>
+                </div>
+        </section>
+</main>
+    <section class="newsletter">
+        <h3 class="newsletter__titulo">Newsletter</h3>
+        <form method="post"> <input type="email" placeholder="E-mail" required></input>
+        <input type="submit" value="Enviar formulario" class="botonnews"></input>
+    </section>
+    <footer>
+        <img src="recursos/redes/logoig.png" alt="logoig" class="footer__redes">
+        <img src="recursos/redes/logofb.png" alt="logofb" class="footer__redes">
+        <img src="recursos/redes/logotw.png" alt="logotw" class="footer__redes">
+        <div>
+            <P class="footer__titulo">Todos los derechos reservados</P>
+        </div>
+    </footer>
+</body>
+</html>

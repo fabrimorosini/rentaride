@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="icon" href="../recursos/logo/favicon.ico">
+    <title>Rent 'a' ride - Reservas</title>
+</head>
+<body>
+    <header>
+        <nav class="header__navegacion">
+            <img src="../recursos/logo/nuevologo.png" alt="logoprincipal" class="logoprincipal">
+            <div>
+                <ul class="header__list">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../paginas/reservas.html">Reservas</a></li>
+                    <li><a href="../paginas/flota.html">Flota</a></li>
+                    <li><a href="../paginas/sucursales.html">Sucursales</a></li>
+
+                    <li> <a href="../paginas/contacto.html">Contactanos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="reservas">
+        <section class="reservas__fondo">
+            <h1 class="reservas__titulo">HAS TU RESERVA AQUI.</h1>
+            <h2 class="reservas__titulo2">ELIJE EL DIA, HORA Y SUCURSAL.</h2>
+                <div class="reservas__select">
+                    <form method="post">
+                        <label for="select" class="reservaindex__titulo">Retiro en sucursal</label>
+                        <select name="Sucursales" id="Sucursales" class="reservaindex__select">
+                        <option value="aeropuerto">Aeropuerto</option>
+                        <option value="centro1">Centro1</option>
+                        <option value="cntro2">Centro2</option>
+                    </select>
+                    <div>
+                        <label for="date" class="reservas__fecha">Fecha:</label>
+                        <input type="date" placeholder="Fecha"required></input>
+                    </div>
+                    <div class="reservas__select">
+                    <form method="post">
+                        <label for="select" class="reservaindex__titulo">Devuelvo en sucursal</label>
+                        <select name="Sucursales" id="Sucursales" class="reservaindex__select">
+                        <option value="aeropuerto">Aeropuerto</option>
+                        <option value="centro1">Centro1</option>
+                        <option value="cntro2">Centro2</option>
+                    </select>
+                    <div>
+                        <label for="date" class="reservas__fecha">Fecha:</label>
+                        <input type="date" placeholder="Fecha"required></input>
+                    </div>
+                    <div>
+                        <input type="submit" value="Buscar" class="boton1"></input>
+                    </div>
+        </section>
+    </main>
+    <footer>
+        <img src="../recursos/redes/logoig.png" alt="logoig" class="footer__redes">
+        <img src="../recursos/redes/logofb.png" alt="logofb" class="footer__redes">
+        <img src="../recursos/redes/logotw.png" alt="logotw" class="footer__redes">
+        <div>
+            <P class="footer__titulo">Todos los derechos reservados</P>
+        </div>
+    </footer>
+</body>
+</html>
