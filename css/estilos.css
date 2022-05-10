@@ -27,7 +27,8 @@ header{
     margin-right: auto;
     width: 300px;
     height: 100px;
-    background-color:rgb(53, 53, 53);
+    /* background-color:rgb(53, 53, 53); */
+    background-color: red;
 }
 
 li{
