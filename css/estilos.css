@@ -11,6 +11,8 @@ header{
 }
 
 .header__navegacion{
+    display: flex;
+    flex-direction: row;
     background-color: rgb(42, 165, 58);
 }
 
@@ -22,18 +24,28 @@ header{
 }
 
 .logoprincipal{
+    margin-right: auto;
     width: 300px;
     height: 100px;
     background-color:rgb(53, 53, 53);
 }
 
 li{
-display: inline;
-}
+    width: 8.5rem;
+    font-family: monospace;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1.890rem;
+    border: 6px solid rgb(53, 53, 53);
+    background-color: rgb(53, 53, 53);
+    }
 
 ul{
+    display: flex;
+    flex-direction: row;
     list-style-type: none;
 }
+
 h1{
     font-size: 45px;
     color: black
@@ -56,6 +68,7 @@ border: 2px solid  rgb(42, 165, 58);
 
 footer{
     display: flex;
+    flex-direction: row;
     background-color:rgb(53, 53, 53);
     position: relative;
     margin-left: 10px;
@@ -101,18 +114,18 @@ width: 300px;
     font-weight: 700;
     font-family: monospace;
 }
+
 .flotaindex__titulo{
     font-size: 35px;
     font-weight: 800;
     font-family: monospace;    
 }
 
-.flotaindex{
-    display: flex;
-}
-
 .portada__titulo2{
     display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     margin-left: 5rem;
     text-align: center;
     font-size: 25px;
@@ -122,30 +135,28 @@ width: 300px;
 
 .mainindex{
         display: flex;
+        flex-direction: column;
         text-align:center;
-        padding: 10px;
-        margin-top: 10px;
-        margin-bottom: 250px;
-        margin-right: 10px;
-        margin-left: 10px;
+        padding: 1rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
         background-color: white;
-        border-radius: 20px;
-        width: 1300px;
-        height: 1000px;
-        border: 2px solid black;
+        border-radius: 2rem;
+        border: 0.2rem solid black;
 }
 
 .flotaindex__fondo{
     display: flex;
-    padding: 10px;
+    padding: 1rem;
     margin-top: 2rem;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 2rem;
+    margin-left: 2rem;
     background-color: rgb(53, 53, 53);
     border-radius: 20px;
-    width: 100rem;
+    width: 72rem;
     height: 14rem;
-    border: 2px solid black; 
+    border: 0.2rem solid black; 
 }
 
 .nuestraflota{
@@ -158,29 +169,39 @@ width: 300px;
     background-color: white;
     border-radius: 20px;
     width: 1300px;
-    height: 1350px;
+    height: 1600px;
     border: 2px solid black; 
 }
 
 .nuestraflota__flota{
+    display: flex;
+    flex-direction: column;
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 50px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 8.5rem;
+    margin-left: 8.5rem;
     background-color: rgb(53, 53, 53);
     border-radius: 20px;
-    width: 1200px;
-    height: 1300px; 
+    width: 1000px;
+    height: 1550px;     
     border: 2px solid black;
 }
 
-.nuestraflota__auto1{
-width: 25.5%;
-height: 20%;
-border-radius: 5px;
-
+.nuestraflota__auto{
+    border-radius: 5px;
+    width: 22rem;
+    height: 18rem;
+    margin-left: 18rem;
 }
+
+.nuestraflota__auto1{
+width: 22rem;
+height: 18rem;
+border-radius: 5px;
+margin-left: 18rem;
+}
+
 .nuestraflota__titulo{
     font-size: 35px;
     font-weight: 800;
@@ -193,11 +214,6 @@ border-radius: 5px;
     font-weight: 800;
     font-family: monospace;
     color: white;
-}
-
-.nuestraflota__auto{
-    border-radius: 5px;
-    background-color: rgb(53, 53, 53);
 }
 
 .nuestraflota__loquiero{
@@ -214,8 +230,8 @@ border-radius: 5px;
 
 .botonindex{
     margin: 1rem;
-    margin-right: 60rem;
-    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-top: 3.5rem;
     border-radius: 5px;
     height: 3rem;
     width: 8rem;   
@@ -229,12 +245,13 @@ border-radius: 5px;
 }
 
 .reservaindex__select{
-    border-radius: 5px;
+    border-radius: 2rem;
     background-color: rgb(53, 53, 53);
-    width: 100px;
-    height: 35px;
+    width: 6rem;
+    height: 2rem;
     
 }
+
 .footer__redes{
     width:40px;
     left: 1180px;
@@ -326,52 +343,104 @@ border-radius: 5px;
     font-family: monospace;
 }
 
+.sucursales{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 2rem;
+    border: 0.2rem solid black;
+}
+
 .sucursales__aeropuerto{
     text-align:center;
     padding: 5px;
     margin-top: 35px;
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 25rem;
+    margin-right: 25rem;    
     background-color: rgb(53, 53, 53);
     border-radius: 20px;
     width: 400px;
     height: 550px;
+    border: 0.2rem solid black;
+    font-size: 1rem;
+    font-weight: 900;
 }
 
 .sucursales__centro1{
     text-align:center;
     padding: 5px;
     margin-top: 35px;
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 25rem;
+    margin-right: 25rem;
     background-color: rgb(53, 53, 53);
     border-radius: 20px;
     width: 400px;
     height: 550px;
+    border: 0.2rem solid black; 
+    font-size: 1rem;
+    font-weight: 900;
 }
 
-.sucursales__centro2{
-    text-align:center;
-    padding: 5px;
-    margin-top: 35px;
-    margin-left: 35px;
-    margin-right: 35px;
-    background-color: rgb(53, 53, 53);
-    border-radius: 20px;
-    width: 400px;
-    height: 550px;
+.sucursales__imagen{
+    width: 300px;
+    height: 200px;
 }
 
 .sucursales__imagencentro1{
     width: 300px;
     height: 200px;
-}
+} 
 
 .sucursales__titulo{
     font-size: 50px;
     font-family: monospace;
+    text-align: center;
 }
 
 .newsletter{
     display: flex;
+    margin-left: 25rem;
+    margin-right: 25rem;
+}
+
+.portadareservas{
+    display: flex;
+    background-color: rgb(53, 53, 53);
+    border-radius: 2rem;
+    width: 37rem;
+    height: 25rem;
+    border: 0.2rem solid black;
+    margin-left: 20rem;
+}
+
+.reservaindex{
+    text-align:center;
+    padding: 0.8rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    border-radius: 20px;
+    width: 400px;
+    height: 70px;
+    background-color: rgb(42, 165, 58);
+    border: 0.2rem solid black;
+}
+
+.reservaindex2{
+    text-align:center;
+    padding: 0.8rem;
+    margin-top: 6rem;
+    margin-left: -1rem;
+    border-radius: 20px;
+    width: 400px;
+    height: 70px;
+    background-color: rgb(42, 165, 58);
+    border: 0.2rem solid black;    
+}
+
+.portada__titulo2{
+    font-size: 1.5m;
 }
